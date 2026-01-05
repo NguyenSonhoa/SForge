@@ -1,0 +1,64 @@
+# SurealmsForge config
+price: 1000 # Số tiền Vault trừ khi đổi skin
+exp: 30     # Số exp trừ khi đổi skin
+gui:
+  title: "<gold>Đổi Skin Trang Bị"
+  slots:
+    item: 0      # slot đặt trang bị
+    token: 1     # slot đặt token
+    result: 3    # slot nhận kết quả
+    tip: 2       # slot hiển thị item tip
+  tip_item:
+    material: PAPER
+    name: "<yellow>Đặt cúp và token vào đúng ô để đổi skin!"
+    custommodeldata: 10
+    lore:
+      - "<gray>Ô trái: Trang bị"
+      - "<gray>Ô giữa: Token skin"
+      - "<gray>Ô phải: Nhận kết quả"
+messages:
+  not_enough_money: "<red>Bạn không đủ tiền!"
+  not_enough_exp: "<red>Bạn không đủ exp!"
+  success: "<green>Đổi skin thành công!"
+  only_player: "<red>Chỉ người chơi mới dùng được lệnh này!"
+skins:
+  diamond_pickaxe:
+    item: DIAMOND_PICKAXE
+    tokens:
+      token1:
+        material: PAPER
+        custommodeldata: 1001
+        result_custommodeldata: 1234
+        result_lore:
+          - "<aqua>Skin đặc biệt: Cúp rồng"
+          - "<gray>Đổi bởi SurealmsForge"
+      token2:
+        material: PAPER
+        custommodeldata: 1005
+        result_custommodeldata: 5678
+        result_lore:
+          - "<blue>Skin hiếm: Cúp băng"
+          - "<gray>Đổi bởi SurealmsForge"
+  diamond_axe:
+    item: DIAMOND_AXE
+    tokens:
+      token1:
+        material: PAPER
+        custommodeldata: 2001
+        result_custommodeldata: 2234
+      token2:
+        material: PAPER
+        custommodeldata: 2002
+        result_custommodeldata: 2235
+  diamond_sword:
+    item: DIAMOND_SWORD
+    token:
+      material: PAPER
+      custommodeldata: 1003
+    result_custommodeldata: 3234
+  diamond_shovel:
+    item: DIAMOND_SHOVEL
+    token:
+      material: PAPER
+      custommodeldata: 1004
+    result_custommodeldata: 4234 

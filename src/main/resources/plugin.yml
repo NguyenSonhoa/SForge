@@ -1,0 +1,22 @@
+name: SurealmsForge
+main: surealmsforge.SurealmsForge
+version: 1.0
+author: bạn
+description: Đổi skin trang bị bằng token
+api-version: 1.21
+commands:
+  skinforge:
+    description: Mở GUI đổi skin
+    usage: /<command>
+    permission: surealmsforge.use
+  repair:
+    description: Mở giao diện sửa chữa trang bị
+    usage: /repair
+    permission: surealmsforge.repair
+permissions:
+  surealmsforge.use:
+    description: Quyền sử dụng lệnh đổi skin
+    default: true
+  surealmsforge.repair:
+    description: Cho phép sử dụng lệnh /repair
+    default: true
